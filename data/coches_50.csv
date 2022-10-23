@@ -1,0 +1,51 @@
+﻿id;Marca;Color;fecha_matriculacion;averiado;kilometros;propietarios anteriores;características;numero bastidor
+1;Dodge;Green;03/07/2003;FALSO;477948,52;0;techo solar&asientos cuero&ayuda frenada;DO-265452385
+2;Toyota;Blue;17/11/2013;FALSO;421948,26;2;GPS&llantas&ayuda frenada;TO-122637195
+3;Mercury;Pink;20/06/1996;VERDADERO;317059,14;2;GPS&pantalla;ME-439003791
+4;Lincoln;Pink;14/03/2010;FALSO;437657,98;0;GPS&pantalla&ayuda frenada;LI-926478721
+5;Chevrolet;Mauv;23/09/2004;FALSO;67595,03;2;ABS&llantas&asientos cuero;CH-495234651
+6;GMC;Teal;01/03/2020;VERDADERO;451927,22;2;ABS&eléctrico&llantas&3 puertas;GM-380241811
+7;Audi;Indigo;22/05/1998;VERDADERO;468855,29;3;asientos cuero&pantalla&llantas&3 puertas;AU-953420510
+8;Ford;Red;15/05/2022;FALSO;87507,17;0;pantalla&eléctrico&android&llantas;FO-792091827
+9;Toyota;Indigo;01/07/1993;FALSO;346119,97;1;ABS&ayuda frenada;TO-440686057
+10;Mitsubishi;Red;15/04/2005;FALSO;482829,77;1;GPS&android&3 puertas;MI-866355508
+11;GMC;Violet;12/06/1992;FALSO;349003,23;1;asientos cuero&llantas&ayuda frenada&3 puertas;GM-248949996
+12;Suzuki;Indigo;29/07/2006;VERDADERO;5044,7;3;GPS&android&llantas&3 puertas;SU-494394813
+13;Nissan;Crimson;08/06/2021;VERDADERO;162365,66;0;GPS&eléctrico&3 puertas;NI-229929961
+14;Ford;Crimson;04/09/2010;VERDADERO;284060,26;1;GPS&asientos cuero&eléctrico;FO-177156341
+15;Honda;Khaki;15/02/2017;VERDADERO;365625,69;2;techo solar&pantalla&android;HO-800231982
+16;Mazda;Blue;05/10/2009;VERDADERO;71346,96;2;GPS&eléctrico&techo solar&3 puertas;MA-440050480
+17;Lexus;Aquamarine;25/07/2005;VERDADERO;282570,32;3;techo solar&asientos cuero&android&ayuda frenada;LE-305547736
+18;Toyota;Maroon;21/08/2016;VERDADERO;48948,22;3;techo solar&pantalla&eléctrico;TO-575813187
+19;GMC;Fuscia;06/03/2020;VERDADERO;102435,05;0;techo solar&android&eléctrico&GPS;GM-736500298
+20;BMW;Red;29/05/2014;VERDADERO;332362,53;1;pantalla&android&llantas&3 puertas;BM-355049100
+21;Chevrolet;Maroon;02/02/2014;VERDADERO;158602,76;2;GPS&asientos cuero&ABS&techo solar;CH-421986147
+22;Cadillac;Orange;23/03/2001;FALSO;349274,31;1;ABS&llantas&3 puertas;CA-383447352
+23;Kia;Blue;20/04/1995;FALSO;43327,15;4;GPS&ABS&pantalla;KI-805446281
+24;Toyota;Yellow;17/09/2019;FALSO;21274,24;3;ABS&llantas&asientos cuero;TO-523912930
+25;GMC;Aquamarine;25/04/1993;VERDADERO;22173,04;1;techo solar&asientos cuero&eléctrico&3 puertas;GM-298934602
+26;Mitsubishi;Yellow;07/07/2022;FALSO;39865,36;0;android&ayuda frenada;MI-360101384
+27;Toyota;Green;21/06/2005;VERDADERO;131729,81;3;techo solar&ABS&GPS;TO-876363909
+28;Mazda;Yellow;14/02/2003;VERDADERO;483284,34;5;ABS&ayuda frenada&3 puertas;MA-992738412
+29;Ford;Red;27/01/1991;FALSO;32320,7;0;GPS&ABS&llantas;FO-232514722
+30;Mazda;Yellow;28/06/2007;VERDADERO;51602,38;1;GPS&asientos cuero&android&ABS;MA-812737242
+31;Kia;Green;04/08/2006;FALSO;19611,18;1;techo solar&android&pantalla&llantas;KI-664319504
+32;Pontiac;Green;02/01/1991;VERDADERO;232898,78;3;GPS&eléctrico&techo solar;PO-584907979
+33;Cadillac;Teal;05/03/2010;VERDADERO;336663,72;2;techo solar&asientos cuero&pantalla&llantas;CA-273771724
+34;Acura;Indigo;08/04/2004;VERDADERO;402880,06;2;ABS&llantas;AC-585302417
+35;Lexus;Crimson;31/01/2010;FALSO;178666,08;3;asientos cuero&android&llantas&ayuda frenada;LE-328571314
+36;Mitsubishi;Fuscia;24/04/1994;VERDADERO;466405,15;3;pantalla&ABS&android&GPS;MI-464306403
+37;Nissan;Turquoise;14/08/2010;VERDADERO;185909,57;3;techo solar&asientos cuero&android;NI-773942113
+38;Cadillac;Green;13/12/2001;FALSO;238481,39;1;eléctrico&ayuda frenada;CA-607338273
+39;Audi;Teal;04/01/1999;FALSO;375483,47;0;GPS&ABS;AU-685211069
+40;Mazda;Violet;21/05/1996;FALSO;136797,62;1;ABS&pantalla&llantas&ayuda frenada;MA-394691652
+41;Volkswagen;Purple;20/08/1993;VERDADERO;484388,73;4;ABS&pantalla&llantas;VO-800830680
+42;Buick;Turquoise;15/01/2022;VERDADERO;338458,69;4;techo solar&ABS&eléctrico&ayuda frenada;BU-362876467
+43;Chevrolet;Teal;26/04/2006;VERDADERO;195164,84;2;ABS&eléctrico&3 puertas;CH-142048909
+44;Nissan;Mauv;05/03/2008;VERDADERO;191070,71;3;GPS&ABS&eléctrico&ayuda frenada;NI-102781592
+45;Ford;Khaki;26/09/2013;VERDADERO;11606,97;2;GPS&asientos cuero&pantalla&llantas;FO-701835964
+46;Ford;Aquamarine;26/01/2022;VERDADERO;476231,28;2;GPS&asientos cuero&3 puertas;FO-506771458
+47;Ford;Turquoise;30/03/2011;FALSO;496009,86;1;GPS&asientos cuero&ABS;FO-963837698
+48;Pontiac;Maroon;08/11/2016;VERDADERO;31311,4;2;pantalla&asientos cuero&android&ayuda frenada;PO-763158897
+49;Toyota;Puce;05/11/1995;VERDADERO;39101,64;1;techo solar&eléctrico&llantas&ayuda frenada;TO-969616842
+50;Dodge;Indigo;29/08/2021;FALSO;39049,41;0;pantalla&android&llantas;DO-788190323
