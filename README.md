@@ -7,8 +7,8 @@
   ### Estructura de las carpetas del proyecto
   
   * **scr**: Contiene los diferentes módulos de Python que conforman el proyecto:
-  -coches. En este fichero encontraremos las funciones para leer los datos.
-  -coches_test. En este fichero encontraremos la funcion para interpretarlos.
+    * **\<coches\>**. En este fichero encontraremos las funciones para leer los datos.
+    * **\<coches_test\>**. En este fichero encontraremos la funcion para interpretarlos.
   * **data**: Contiene los datos recogidos en el fichero "coches_50".
   
   ### Funciones implementadas
