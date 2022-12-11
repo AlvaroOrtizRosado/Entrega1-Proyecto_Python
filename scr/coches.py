@@ -1,6 +1,7 @@
 from collections import namedtuple, defaultdict
 import csv
 from datetime import datetime
+import matplotlib.pyplot as plt
 
 coche = namedtuple('coche','id,marca,color,fecha_matriculacion,averiado,kilometros,propietarios_anteriores,características,numero_bastidor')
 
@@ -19,7 +20,7 @@ def lee_coches(info_coche):
         lector = csv.reader(f, delimiter=';')
         next(lector)
         for id,marca,color,fecha_matriculacion,averiado,kilometros,propietarios_anteriores,características,numero_bastidor in lector:
-            tupla = coche(int(id),marca,color,parsea_fecha(fecha_matriculacion),parsea_boolean(averiado),float(kilometros.replace(",",".")),int(propietarios_anteriores),características,numero_bastidor)
+            tupla = coche(int(id),marca,color,parsea_fecha(fecha_matriculacion),parsea_boolean(averiado),float(kilometros.replace(",",".")),int(propietarios_anteriores),características.split("&"),numero_bastidor)
             res.append(tupla)
     return res
 
@@ -63,3 +64,68 @@ def agrupar_por_color(registros):
     for r in registros:
         res[r.color].append(r)
     return res
+
+def coches_por_marcas(registros):
+    res=dict()
+    for r in registros:
+        clave=r.marca
+        if clave not in res:
+            res[clave]=0
+        res[clave]+= 1
+    return res
+
+def marca_con_más_averías(registros):
+    res=dict()
+    for r in registros:
+        clave = r.marca
+        if clave not in res:
+            res[clave]=0
+        res[clave]+=r.averiado
+    return max(res.items(),key=lambda e:e[1])[0]
+
+def máximo_de_km_por_marca(registros):
+    aux=defaultdict(list)
+    for r in registros:
+        aux[r.marca].append(r)
+
+    res=dict()
+    for c, v in aux.items():
+        res[c]=(max_km(v))
+    return res
+
+def max_km(registros):
+    res=list()
+    for r in registros:
+        res.append(int(r.kilometros))
+        return max(res)
+
+def colores_más_vendidos_por_marca(registros, n):
+    aux=dict()
+    for r in registros:
+        clave=r.marca
+        if clave not in aux:
+            aux[clave]=[]
+        aux[clave]+=[r]
+    
+    res=dict()
+    for c,v in aux.items():
+        res[c]=top_color(v, n)
+    return res
+
+def top_color(registros, n):
+    aux=dict()
+    for r in registros:
+        clave=r.color
+        if clave not in aux:
+            aux[clave]=[]
+        aux[clave]+=[r]
+    return sorted(aux.items(),key=lambda e:e[1], reverse=True)[:n]
+    
+def gráfica_km_por_marca(registros, titulo):
+    plt.title(titulo)
+    marcas=list(máximo_de_km_por_marca(registros).keys())[:5]
+    valores=list(máximo_de_km_por_marca(registros).values())[:5]
+    plt.bar(marcas, valores)
+    plt.show()
+
+

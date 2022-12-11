@@ -26,12 +26,36 @@ def test_marcas_con_menos_averías(n=5):
 def test_agrupar_por_color(color, n=5):
     print(agrupar_por_color(datos)[color][:n])
 
+def test_coches_por_marca():
+    print("El número de coches registrados por marca es:{}"
+    .format(coches_por_marcas(datos)))
+
+def test_marca_con_más_averías():
+    print(f"La marca con más averías es {marca_con_más_averías(datos)}")
+
+def test_máximo_de_km_por_marca():
+    print("El máximo de kilómetros recorridos por un coche de cada marca es:")
+    print(máximo_de_km_por_marca(datos))
+
+def test_colores_más_vendidos_por_marca(n):
+    print(f"Los {n} colores más vendidos por marca son:")
+    print(colores_más_vendidos_por_marca(datos, n))
+
+def test_gráfica_km_por_marca():
+    gráfica_km_por_marca(datos, "Marcas por kilómetros recorridos máximos")
+
+
 #Importante
 datos = lee_coches("Proyecto Python/data/coches_50.csv")
 
-#test_lee_coches()
-#test_número_marcas_distintas()
-#test_media_kilómetros()
-#test_max_kilómetros()
-#test_marcas_con_menos_averías()
-#test_agrupar_por_color("Green")
+# test_lee_coches()
+# test_número_marcas_distintas()
+# test_media_kilómetros()
+# test_max_kilómetros()
+# test_marcas_con_menos_averías()
+# test_agrupar_por_color("Green")
+# test_coches_por_marca()
+# test_marca_con_más_averías()
+# test_máximo_de_km_por_marca()
+# test_colores_más_vendidos_por_marca(5)
+# test_gráfica_km_por_marca()
